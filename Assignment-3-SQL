@@ -1,0 +1,14 @@
+Intro to Assignment 3
+
+bla bla
+
+code here
+CREATE TABLE books (
+  book_id INT PRIMARY KEY AUTO_INCREMENT,
+  isbn CHAR(13) NOT NULL UNIQUE,
+  title VARCHAR(200) NOT NULL,
+  author VARCHAR(120) NOT NULL,
+  genre VARCHAR(50) NOT NULL,
+  published_year YEAR NOT NULL,
+  copies_total INT NOT NULL DEFAULT 1
+
